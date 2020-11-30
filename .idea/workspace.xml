@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="423ba27a-a7c7-4083-a742-66376b1dcb02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Shopping/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/AdminAboutModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/AdminArticleModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/AdminPostModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/AdminSliderModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/CategoryModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Component/MenuRecusive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Component/RecusiveCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/FrontedPostModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/FrontenSliderdModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/FrontendAboutModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/FrontendCategoryModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/FrontendContactModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/FrontendImageModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/FrontendMenuModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/FrontendProductModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/FrontendSettingModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Helpers/Helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminAboutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminArticleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminOrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminPermissionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminPostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminRoleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminSettingController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/AdminSliderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/MenuController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Admin/UserConytroller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/DashboardController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/FrontendBlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/FrontendCartController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/FrontendCategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/FrontendPaymentController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/FrontendProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/FrontendSearchController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Controllers/PageStaticController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Requests/CategoryRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Requests/MenuRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Requests/ProductRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Requests/SettingRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Http/Requests/SliderRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/MenuModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/OrderDetail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/PermissionModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Policies/CategoryPolicy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/ProductImageModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/ProductModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/ProductTagModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/RoleModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Services/PermissionGateAndPolicyAccsess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/SettingModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/TagModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/Traits/TraitsStorageImages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/lfm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/permission.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2020_11_23_084149_create_contacts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2020_11_23_093824_create_article_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2020_11_25_121426_add_c_active_to_category_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2020_11_27_150849_add_votes_to_products_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2020_11_29_150352_create_category_post_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2020_11_29_163826_add_post_id_to_article_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2020_11_30_025052_create_about_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/migrations/2020_11_30_052104_add_votes_to_user_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/contact/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/contact/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/bootstrap/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/bootstrap/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/carousel/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/carousel/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/carousel/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/category_product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/detail_blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/detail_product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/css/import/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/fonts/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/fonts/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/fonts/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/fonts/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/fonts/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/fonts/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/fonts/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/banner-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/icon-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/icon-to-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-foot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-post-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/img-pro-23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/slider-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/slider-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/images/slider-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/bootstrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/bootstrap/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/carousel/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/elevatezoom-master/elevatezoom.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/elevatezoom-master/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/elevatezoom-master/jquery.elevateZoom-3.0.8.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/elevatezoom-master/jquery.elevatezoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/font/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/js/app1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/role/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/css/cropper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/css/dropzone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/css/lfm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/css/mime-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/files/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/files/adobe.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/files/folder-1/sleeping-dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/files/word.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/images/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/images/test-folder/sleeping-dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/images/test-folder/thumbs/sleeping-dog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/img/152px color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/img/72px color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/img/92px color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/img/Logomark color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/img/folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/img/loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/js/cropper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/js/dropzone.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/js/filemanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/js/filemanager.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/vendor/laravel-filemanager/js/stand-alone-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/about/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/about/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/about/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/article/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/article/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/article/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/category/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/category/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/compoment/order.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/menu/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/menu/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/menu/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/order/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/order/test.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/partial/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/partial/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/partial/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/permission/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/post/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/post/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/post/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/product/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/product/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/product/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/role/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/role/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/role/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/setting/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/setting/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/setting/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/slider/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/slider/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/slider/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/user/add.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/user/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/admin/user/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/cart/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/cart/update.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/category/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/contact/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/home/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/home/selling_products/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/page_static/about.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/partial/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/partial/head.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/partial/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/partial/menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/partial/menu_childrent.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/partial/menu_header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/partial/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/payment/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/post/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/post/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/product/detail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/frontend/search/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/layouts/shop.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shopping/webpack.mix.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Shopping/app/Http/Requests/MenuRequest.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/ismart.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/Shopping/.idea/Shopping.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1346" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ismart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ismart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ismart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ismart" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopping" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ismart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ismart" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ismart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ismart" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ismart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ismart" type="462c0819:PsiDirectoryNode" />
+              <item name="Shopping" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ismart" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="423ba27a-a7c7-4083-a742-66376b1dcb02" name="Default Changelist" comment="" />
+      <created>1606753472593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606753472593</updated>
+      <workItem from="1606753473804" duration="545000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="545000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Shopping/app/Http/Requests/MenuRequest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
