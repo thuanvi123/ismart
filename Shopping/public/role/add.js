@@ -1,0 +1,11 @@
+$(function(){
+    $('.checkboxall').click(function(){
+        $(this).parents('.card_thuan').find('.checkbox_childrent').prop('checked',$(this).prop('checked'));
+    });
+});
+$(function(){
+    $('.checkall').click(function(){
+        $(this).parents('.checka').find('.checkbox_childrent').prop('checked',$(this).prop('checked'));
+        $(this).parents('.checka').find('.checkboxall').prop('checked',$(this).prop('checked'));
+    });
+});

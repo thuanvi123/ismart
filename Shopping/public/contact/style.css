@@ -1,0 +1,44 @@
+h3.tittle-w3l {
+    color: #000;
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.19);
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+h3.tittle-w3l span {
+    color: #0879c9;
+    font-size: 50px;
+    letter-spacing: 0;
+}
+
+.text-center {
+    text-align: center !important;
+}
+.con-ic i {
+    font-size: 22px;
+    color: #f45c80;
+    width: 80px;
+    height: 80px;
+    line-height: 3.5;
+    box-shadow: 2px 1px 4px #00000061;
+}
+.contact-grid1 h4 {
+    font-size: 24px;
+    color: #0879c9;
+    letter-spacing: 1px;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+p {
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.9;
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+}

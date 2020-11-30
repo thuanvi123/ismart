@@ -1,0 +1,25 @@
+<?php
+return
+[
+  'access'=>[
+      'category-list'=>'category_list',
+      'category-add'=>'category_add',
+      'category-edit'=>'category_edit',
+      'category-delete'=>'category_delete',
+  ],
+    'table_module'=>[
+        'category',
+        'product',
+        'menu',
+        'setting',
+        'slider',
+        'user',
+        'role',
+    ],
+    'module_childrent'=>[
+        'list',
+        'add',
+        'edit',
+        'delete'
+    ]
+];
