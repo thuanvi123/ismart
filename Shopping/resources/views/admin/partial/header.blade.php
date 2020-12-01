@@ -1,5 +1,5 @@
 <nav class="topnav shadow navbar-light bg-white d-flex">
-    <div class="navbar-brand"><a href="?">UNITOP ADMIN</a></div>
+    <div class="navbar-brand"><a href="?">ADMIN</a></div>
     <div class="nav-right ">
         <div class="btn-group mr-auto">
             <button type="button" class="btn dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

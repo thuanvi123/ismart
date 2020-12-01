@@ -16,7 +16,7 @@
 <script>
     $(document).ready(function () {
         var editor_config = {
-            path_absolute : "http://localhost/Shopping/",
+            path_absolute : "http://localhost/ismart/Shopping/",
             selector: "textarea.content",
             plugins: [
                 "advlist autolink lists link image charmap print preview hr anchor pagebreak",
