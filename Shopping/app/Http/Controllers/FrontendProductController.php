@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\FrontendCategoryModel;
 use App\FrontendImageModel;
 use App\FrontendProductModel;
 use Illuminate\Http\Request;
@@ -22,6 +23,7 @@ class FrontendProductController extends Controller
          {
              $productDetail=FrontendProductModel::find($id);
          }
-        return view('frontend.product.detail',compact('productDetail'));
+        $category=FrontendCategoryModel::all();
+        return view('frontend.product.detail',compact('productDetail','category'));
     }
 }
