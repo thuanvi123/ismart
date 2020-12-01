@@ -64,29 +64,38 @@
                         {!! $productDetail->content !!}
                     </div>
                 </div>
-                <div class="section" id="same-category-wp">
-                    <div class="section-head">
-                        <h3 class="section-title">Cùng chuyên mục</h3>
-                    </div>
-                    <div class="section-detail">
-                        <ul class="list-item">
-                            <li>
-                                <a href="" title="" class="thumb">
-                                    <img src="public/images/img-pro-17.png">
-                                </a>
-                                <a href="" title="" class="product-name">Laptop HP Probook 4430s</a>
-                                <div class="price">
-                                    <span class="new">17.900.000đ</span>
-                                    <span class="old">20.900.000đ</span>
-                                </div>
-                                <div class="action clearfix">
-                                    <a href="" title="" class="add-cart fl-left">Thêm giỏ hàng</a>
-                                    <a href="" title="" class="buy-now fl-right">Mua ngay</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                @foreach($categories as $category)
+                    @if($category->id==$productDetail->cat_id)
+                        <div class="section" id="list-product-wp">
+                            <div class="section-head">
+                                <h3 class="section-title">Cùng chuyên mục</h3>
+                            </div>
+                            <div class="section-detail">
+                                <ul class="list-item clearfix">
+
+                                    @foreach($category->products as $productItem)
+                                        <li>
+                                            <a href="{{route('product.detail',[$productItem->slug,$productItem->id])}}" title="" class="thumb">
+                                                <img style="height:140px" src="{{asset($productItem->feature_image)}}">
+                                            </a>
+                                            <a href="?page=detail_product" title="" class="product-name">{{$productItem->name}}</a>
+                                            <div class="price">
+                                                <span class="new">{{number_format($productItem->price,0,'.','.')}}đ</span>
+                                            </div>
+                                            <div class="action clearfix">
+                                                <a href="#" title="Thêm giỏ hàng" class="add-cart fl-left">Thêm
+                                                    giỏ
+                                                    hàng</a>
+                                                <a href="?page=checkout" title="Mua ngay" class="buy-now fl-right">Mua
+                                                    ngay</a>
+                                            </div>
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        </div>
+                    @endif
+                @endforeach
             </div>
             <div class="sidebar fl-left">
                 <div class="section" id="category-product-wp">
